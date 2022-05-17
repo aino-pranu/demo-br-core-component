@@ -1,0 +1,21 @@
+{
+  "name": "enterprise-tree",
+  "version": "0.0.1",
+  "peerDependencies": {
+    "@angular/common": "^8.0.3",
+    "@angular/core": "^8.0.3"
+  },
+  "main": "bundles/enterprise-tree.umd.js",
+  "module": "fesm5/enterprise-tree.js",
+  "es2015": "fesm2015/enterprise-tree.js",
+  "esm5": "esm5/enterprise-tree.js",
+  "esm2015": "esm2015/enterprise-tree.js",
+  "fesm5": "fesm5/enterprise-tree.js",
+  "fesm2015": "fesm2015/enterprise-tree.js",
+  "typings": "enterprise-tree.d.ts",
+  "metadata": "enterprise-tree.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}

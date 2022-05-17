@@ -1,0 +1,21 @@
+.example-container {
+    width: 100vw;
+}
+
+.mat-drawer {
+    width: 14%;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    /* background: #e5e6eb; */
+    box-shadow: 0 10px 20px #e5e6eb, 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+mat-drawer-container {
+    overflow: hidden;
+}
+
+.drawer-content {
+    overflow-x: hidden;
+    height: 100vh;
+}

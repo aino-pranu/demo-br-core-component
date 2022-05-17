@@ -1,0 +1,43 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "module": "esnext",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "target": "es2015",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ],
+    "paths": {
+      "enterprise-tree": [
+        "dist/enterprise-tree"
+      ],
+      "enterprise-tree/*": [
+        "dist/enterprise-tree/*"
+      ],
+      "enterprise-grid": [
+        "dist/enterprise-grid"
+      ],
+      "enterprise-grid/*": [
+        "dist/enterprise-grid/*"
+      ],
+      "demo": [
+        "dist/demo"
+      ],
+      "demo/*": [
+        "dist/demo/*"
+      ]
+    }
+  }
+}

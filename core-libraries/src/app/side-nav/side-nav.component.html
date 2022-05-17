@@ -1,0 +1,22 @@
+
+<mat-nav-list >
+  <a>
+      <mat-tree [dataSource]="dataSource" [treeControl]="treeControl" class="module-button-container">
+
+          <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding class="module-button">
+                  <a mat-list-item (click)="setTreeNodesStyleBlock();loadModule(node.route);currentSelectedModule(node.name);" routerLinkActive="active">
+                      <h2 matLine>{{node.name}}</h2>
+                  </a>
+                   
+          </mat-tree-node>
+
+          <mat-tree-node *matTreeNodeDef="let node; when: hasChild" matTreeNodePadding class="module-button">
+
+              <a mat-list-item matTreeNodeToggle (click)="setTreeNodesStyleBlock();loadModule(node.route);currentSelectedModule(node.name);" routerLinkActive="active">
+                  <h2 matLine>{{node.name}}</h2>
+              </a>
+
+          </mat-tree-node>
+      </mat-tree>
+  </a>
+</mat-nav-list>

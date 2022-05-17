@@ -1,0 +1,29 @@
+.module-button-container,
+.tree-module-button {
+  background: #e5e6eb;
+  display: block;
+  width: 100%;
+  margin: 14px 0px;
+  text-align: center;
+  animation: slide-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+.active-list-item {
+  color: #3f51b5 !important;
+}
+
+span {
+  margin-left: 16px;
+  text-transform: uppercase;
+  font-family: "Questrial", sans-serif;
+  letter-spacing: 1px;
+}
+
+.icon {
+  font-size: 29px;
+  margin-bottom: 8px;
+}
+
+h3 {
+  text-align: center;
+}

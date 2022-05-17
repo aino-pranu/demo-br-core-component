@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CoreLibraries</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="src/assets/js/configuration.js"></script>
+    <!-- <script src="https://requirejs.org/docs/release/2.3.5/minified/require.js"></script> -->
+</head>
+<script type="text/javascript">
+    var cfgApiBaseUrl = "http://localhost:4200";
+    window.cfgApiBaseUrl = cfgApiBaseUrl;
+</script>
+
+<!-- <script>
+    alert("Hello");
+    const { GridConfig } = require("/projects/enterprise-grid/src/config/GridConfig");
+    let gridConfig = new GridConfig();
+    console.log(gridConfig)
+    // document.write(gridConfig)
+    // var config = { gridConfig: { setGridHeader: "Project", setGridComponentTag: "app-project-grid", setPageSize: 12, addColumnConfig: "id,Project Id, 1" } };
+</script> -->
+
+<body>
+    <app-root></app-root>
+</body>
+
+</html>

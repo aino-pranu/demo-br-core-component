@@ -1,0 +1,12 @@
+{
+    "name": "@ainosoft/appops-br-core-components",
+    "version": "0.0.6",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com/"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ainosoft/appops-br-core-components/"
+    }
+
+}
