@@ -17,7 +17,7 @@ pipeline {
 	              sh '''
 	                 cd Packages
 			 ls
-	                 npm set //npm.pkg.github.com/:_authToken ${GIT_ACCESS_TOKEN}
+	                 npm set //npm.pkg.github.com/:_authToken=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
 			 npm version patch
                    	 npm publish'''
 	           }
