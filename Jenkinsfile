@@ -18,10 +18,8 @@ pipeline {
 	                 cd Packages
 			 ls
 			 npm set //npm.pkg.github.com/:_authToken ${GIT_ACCESS_TOKEN}
-			 cd ..
-			 cd core-libraries/
-			 ng build enterprise-grid
-			 ng build enterprise-tree
+			 npm version patch
+                   	 npm publish'''
 	           }
 	        }
       }
