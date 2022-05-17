@@ -17,9 +17,10 @@ pipeline {
 	              sh '''
 	                 cd Packages
 			 ls
-	                 npm set //npm.pkg.github.com/:_authToken ${GIT_ACCESS_TOKEN}
-			 npm version patch
-                   	 npm publish'''
+			 cd ..
+			 cd core-libraries/
+			 ng build enterprise-grid
+			 ng build enterprise-tree
 	           }
 	        }
       }
