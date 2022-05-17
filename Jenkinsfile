@@ -17,6 +17,7 @@ pipeline {
 	              sh '''
 	                 cd Packages
 			 ls
+			 npm set //npm.pkg.github.com/:_authToken ${GIT_ACCESS_TOKEN}
 			 cd ..
 			 cd core-libraries/
 			 ng build enterprise-grid
