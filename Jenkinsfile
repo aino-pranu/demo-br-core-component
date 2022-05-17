@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    GIT_REPO = 'appops-br-core-components'
+    GIT_REPO = 'demo-br-core-components'
   }
   stages {
      stage('Package deployment') {
