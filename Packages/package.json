@@ -2,7 +2,7 @@
     "name": "@aino-pranu/demo-br-core-component",
     "version": "0.0.1",
     "publishConfig": {
-        "registry": "https://npm.pkg.github.com/"
+        "registry": "https://npm.pkg.github.com/@aino-pranu"
     },
     "repository": {
         "type": "git",
