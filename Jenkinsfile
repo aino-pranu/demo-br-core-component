@@ -16,13 +16,13 @@ pipeline {
 	           withEnv(['npm_config_cache=npm-cache','HOME=.',]) {
 	              sh '''
 	                 cd Packages
-			             ls
+			 ls
 	                 npm set //npm.pkg.github.com/:_authToken ${GIT_ACCESS_TOKEN}
-			             npm version patch
-                   npm publish'''
+			 npm version patch
+                         npm publish'''
 	           }
 	        }
-      }
+           }
     }
 
 	  
